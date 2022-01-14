@@ -1,0 +1,34 @@
+.buttonPanel {
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background: linear-gradient(
+    137deg,
+    rgba(9, 14, 125, 0) 53%,
+    rgba(0, 0, 0, 0.6261379551820728) 100%
+  );
+  div {
+    display: flex;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    ion-icon {
+      color: white;
+      font-size: 70px;
+    }
+    ion-icon:hover {
+      transform: scale(1.15);
+      transition: all 0.3s;
+    }
+  }
+  opacity: 0;
+}
+.extraMargin {
+  margin-right: 70px;
+}
+.buttonPanel:hover {
+  opacity: 1;
+  transition: all 0.5s;
+}
